@@ -1,6 +1,6 @@
 const ComCard = ({ src }) => {
     return (
-        <img src={src}/>
+        <img className={style} src={src}/>
     )
 }
 
